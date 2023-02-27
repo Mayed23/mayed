@@ -62,7 +62,7 @@ li img:hover{
 
     color: rgb(22, 22, 22);
     text-decoration: none;
-    margin: 20px;
+    margin: 15px;
     transition: 1s;
 }
 
@@ -80,7 +80,7 @@ li img:hover{
     background-color: red;
     color:white;
     font-size: 40px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     transition: 0.4s;
     
 }
@@ -90,7 +90,7 @@ li img:hover{
 }
 
 .content{
-    
+
     width: 99%;
     transition: 1s;
 
@@ -123,9 +123,26 @@ h1{
     
 }
 
-.presentacion img{
+.presentacion img.img{
+
     width: 48%;
     height: 30%;
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0%;
+
+}
+@keyframes aparecer{
+
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
 }
 
 h2{
