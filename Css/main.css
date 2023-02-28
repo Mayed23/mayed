@@ -52,7 +52,7 @@ li img:hover{
 
 .menu a{
 
-    color: rgb(230, 121, 121);
+    color: rgb(243, 108, 108);
     text-decoration: none;
     margin: 15px;
     transition: 1s;
@@ -68,7 +68,7 @@ li img:hover{
 
 .menu a.btn button{
     border-radius: 10mm;
-    background-color: red;
+    background-color: rgb(221, 113, 25);
     color:white;
     font-size: 40px;
     padding: 10px 10px;
@@ -174,7 +174,7 @@ button{
     left: 55%;
     bottom: 10%;
     border-radius: 10mm;
-    background-color: red;
+    background-color: rgb(221, 113, 25);
     color:white;
     font-size: 25px;
     padding: 10px 20px;
@@ -208,10 +208,9 @@ button:hover{
     transform: scale(1.2)
 }
 
+
 .icon{
     margin: 15px;
-    width: 60px;
-    height: 60px;
     transition: 0.5s;
 
 }
@@ -263,7 +262,7 @@ h3.title_3{
 
 
 
-.form{
+/**.form{
 
     width: 800px;
     height: 250px;
@@ -282,39 +281,49 @@ label{
     margin-top: 10px;
     margin-bottom: 20px;
     
-} 
-.input{
+} **/
 
-    width: 285px;
-    margin-bottom: 15px;
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
+.form_contacto{
+
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+.form-control{
+
+    font-size: 2opx;
+    color:rgb(238, 41, 15);
+    background-color: rgba(255, 127, 80, 0.342);
+    border:rgb(238, 197, 182);
     
 }     
 
-textarea{
+#inputGroupPrepend2{
 
-    border-color: none;
-
-}
-
-.msm_msm{
-    margin-top: 10px;
-    position: absolute;
-    width: 400px;
-    margin-bottom: 15px;
     font-size: 20px;
-    border: none;
-    background-color: transparent;
-    
+    color:rgb(238, 86, 15);
+    background-color:transparent;
+    border:rgb(238, 197, 182);
+
 }
 
+#validationDefault04{
 
-form .btn_enviar{
+    font-size: 2opx;
+    color:rgb(238, 41, 15);
+    background-color: rgba(255, 127, 80, 0.342);
+    border:rgb(238, 197, 182);
+
+
+}
+
+.btn_enviar{
 
     position: relative;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: medium;
     
 }
@@ -390,7 +399,7 @@ h4{
     margin-left: 40px;
     margin-top: 20px;
     width: 95%;
-    height: 650px;
+    height: 650px; 
     border-radius: 10mm;
     background-image: url(./fondo2.jpg);
     background-repeat: no-repeat;
@@ -560,6 +569,12 @@ p.card_descrip{
 
 @media  screen and (max-width: 847px){
 
+    h1{
+        font-size: 45px;
+
+    }
+    
+
     .menu{
         
         flex-direction: column;
@@ -573,6 +588,18 @@ p.card_descrip{
 
 
     }
+
+    .icon{
+        transition: 0.1s;
+    
+    }
+    
+    .icon:hover{
+        
+        transform: none;
+        transform: scale(1.2);}
+
+   
 
 }
 
