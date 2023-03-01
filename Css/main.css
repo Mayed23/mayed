@@ -113,7 +113,7 @@ h1{
     
 }
 
-.presentacion img.img{
+.presentacion img.img_index{
 
     width: 90vh;
     height: 30%;
@@ -312,7 +312,7 @@ label{
 
 #validationDefault04{
 
-    font-size: 2opx;
+    font-size: 20px;
     color:rgb(238, 41, 15);
     background-color: rgba(255, 127, 80, 0.342);
     border:rgb(238, 197, 182);
@@ -322,9 +322,17 @@ label{
 
 .btn_enviar{
 
+    background-color: rgba(238, 34, 34, 0.5) ;
+    color: aliceblue;
     position: relative;
-    margin-top: 10%;
-    font-size: medium;
+    border: none;
+    border-radius: 2mm;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 60%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+
     
 }
 
@@ -392,7 +400,10 @@ h4{
 
 /**TALLERES**/
 
+div.taller-img{
 
+    display: flex;
+}
 
 
 #fondo {
@@ -443,11 +454,21 @@ h4{
 
 
 
-#carouselExampleCaptions{
 
-    width: 100vh;
-    margin-bottom: 10%;
-    margin-top: 10%;
+.carousel-inner{
+
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+    background-color: rgba(242, 242, 245, 0.267);
+    border-radius: 5mm;
+}
+
+div#carouselExampleCaptions{
+
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
     margin-left: 25%;
     margin-right: 20%;
 
@@ -470,11 +491,44 @@ h4{
 
 }
 
+img.d-block.w-100{
+    
+
+    border-radius: 50%;
+}
+
+div.carousel-caption{
+
+    background-color: rgba(242, 242, 245, 0.267);    
+    color: white;
+    border-radius: 10mm;
+    position: relative;
+    right: 0%;
+    left: 15%;
+    margin-top: 20px;
+    width: 70%;
+
+}   
+
+h5{
+
+    font-size: 28px;
+}
+
+p{
+
+    font-size: 18px;
+}
+
 button.active{
 
     color: black;
 }
 
+.carousel-control-next{
+
+    position: relative;
+}
 
 /**.card_card{
 
@@ -535,13 +589,12 @@ p.card_descrip{
 
    
     margin-top: 30px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-   
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex ;
+    justify-content:space-between;
+    gap: 40px;
     
     
 }
@@ -549,15 +602,20 @@ p.card_descrip{
 
 .plan_cards{
 
+    
+  
     display: inline-block; ;
     align-items: center;
     text-align: center;
+    padding: 10px 10px;
     background: linear-gradient(15deg, rgba(102, 202, 89, 0.995) 3%, rgb(231, 200, 133) 80%);
     border-radius: 5mm;
-}
+  }
+
 
 .plan_title{
 
+    
     font-size: 30px;
     background: none;
     transition: 0,8ms;
@@ -570,11 +628,32 @@ p.card_descrip{
 
 .plan_description{
 
-    font-size: larger;
+    
+    font-size: 20px;
     font-style: italic;
        
 }
 
+h6{
+
+    font-size: larger;
+}
+
+
+    .contacto_plan{
+
+    background-color: rgba(10, 10, 10, 0.356);
+    height: 50px;
+    width: 110px;
+    border-radius: 3mm;
+}
+
+.select_contacto{
+
+    color: rgb(247, 240, 240);
+    text-decoration: none;
+    font-size: 20px;
+}
 
 @media  screen and (max-width:1200px){
 
@@ -600,6 +679,22 @@ p.card_descrip{
 
         left: 10%;
     }
+
+
+#fondo {
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: 
+            ".   texto";
+          
+    }
+
+div.taller_img{
+
+    display: flex;
+}    
+
 }
 
 @media  screen and (max-width: 847px){
@@ -614,16 +709,14 @@ p.card_descrip{
         
         flex-direction: column;
         font-size: 15px;
-
-}
-
-    .presentacion img.img{
-
-        width: 100%;
-
-
     }
 
+
+
+    .presentacion img.img_index{
+ 
+        width: -webkit-fill-available
+    }
     .icon{
         transition: 0.1s;
     
@@ -634,20 +727,58 @@ p.card_descrip{
         transform: none;
         transform: scale(1.2);}
 
-   
+    .question{
 
+        font-size: 15px;
+        left: 5px;
+    }
+
+@media  screen and (max-width: 690px) {
+
+
+    
+        #fondo {
+        
+        
+        display: flex;
+    }
+
+    .taller_texto{
+
+        display:block ;
+    }
+
+    .taller_title{
+
+        font-size: 19px;
+    }
+
+    .taller_texto p{
+
+        font-size: small;
+    }
+              
+    
+}    
+
+   
+@media screen and (max-width: 590px) {
+
+    .corousel-item.active{
+
+        width: 100vh;
+        display: inline;
+        position: relative;
+    }
+
+
+    div#carouselExampleCaptions{
+
+        margin: 0%;
+
+    }
 }
-
     
-
-
-
-
-
-
-
    
 
 
-
-    
