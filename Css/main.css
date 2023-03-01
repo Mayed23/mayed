@@ -169,7 +169,7 @@ h2{
 
 }
 
-button{
+.question{
     position: relative;
     left: 55%;
     bottom: 10%;
@@ -441,13 +441,48 @@ h4{
 
 /**TUTORES**/
 
-.card_card{
 
-    width: 80%;
-    margin-left: 20%;
+
+#carouselExampleCaptions{
+
+    width: 100vh;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 25%;
     margin-right: 20%;
-   
+
+
 }
+
+.carousel-indicators{
+
+    
+    justify-content: center;
+    position: absolute;
+}
+
+.carousel-indicators.active{
+
+    position: relative;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+
+}
+
+button.active{
+
+    color: black;
+}
+
+
+/**.card_card{
+
+    width: 50%;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}   
 
 div.card{
 
@@ -492,7 +527,7 @@ p.card_descrip{
     font-size: 18px;
     font-style: italic;
     text-align: justify;
-}
+}**/
 
 /**PLANES**/
 
