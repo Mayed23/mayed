@@ -413,7 +413,7 @@ div.taller-img{
     margin-left: 40px;
     margin-top: 20px;
     width: 95%;
-    height: 650px; 
+    height: 650px;
     border-radius: 10mm;
     background-image: url(./fondo2.jpg);
     background-repeat: no-repeat;
@@ -755,6 +755,11 @@ div.taller_img{
         
       }
 
+     #fondo{
+
+        height: 0%;
+     } 
+
 }
 
 @media  screen and (max-width: 690px) {
@@ -765,6 +770,7 @@ div.taller_img{
         
         
         display: flex;
+        
     }
 
     .taller_texto{
