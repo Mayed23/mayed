@@ -100,6 +100,9 @@ li img:hover{
 }**/    
     
 h1{
+
+    font-weight: 500;
+    line-height: 1.2;
     margin: 30px;
     font-size: 70px;
     color:red;
@@ -732,6 +735,27 @@ div.taller_img{
         font-size: 15px;
         left: 5px;
     }
+
+    .plan_card{
+
+   
+        
+        display: inline-block;
+        
+     
+        
+    }    
+
+    .plan_cards{
+
+    
+  
+        display: inline-block; 
+        margin-bottom: 15px;
+        
+      }
+
+}
 
 @media  screen and (max-width: 690px) {
 
