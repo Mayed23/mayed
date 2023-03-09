@@ -328,7 +328,7 @@ div.taller-img {
   width: 95%;
   height: 650px;
   border-radius: 10mm;
-  background-image: url(../estilos/fondo2.jpg);
+  background-image: url(./estilos/fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
