@@ -1,0 +1,99 @@
+/**CONTACTO**/
+
+
+
+.content{
+
+    height: 850px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+h3{  
+    font-size: 45px;
+    color: rgb(173, 74, 7);
+    
+}
+
+h3.title_3{
+
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+/**.form{
+
+    width: 800px;
+    height: 250px;
+    font-size: 28px;
+    margin: 60px 160px;
+    color:rgb(238, 86, 15);
+    position:relative;
+    transform: translate(50%);
+    
+  
+
+}
+
+label{
+    width: 285px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+} **/
+
+.form_contacto{
+
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+
+}
+
+.form-control{
+
+    font-size: 2opx;
+    color:rgb(238, 41, 15);
+    background-color: rgba(255, 127, 80, 0.342);
+    border:rgb(238, 197, 182);
+    
+}     
+
+#inputGroupPrepend2{
+
+    font-size: 20px;
+    color:rgb(238, 86, 15);
+    background-color:transparent;
+    border:rgb(238, 197, 182);
+
+}
+
+#validationDefault04{
+
+    font-size: 20px;
+    color:rgb(238, 41, 15);
+    background-color: rgba(255, 127, 80, 0.342);
+    border:rgb(238, 197, 182);
+
+
+}
+
+.btn_enviar{
+
+    background-color: rgba(238, 34, 34, 0.5) ;
+    color: aliceblue;
+    position: relative;
+    border: none;
+    border-radius: 2mm;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 60%;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+
+    
+}

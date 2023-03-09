@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, rgb(134, 235, 134), rgb(219, 185, 120), rgb(231, 231, 122));
+}
+
+.header {
+  width: 100%;
+}
+
+.menu {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+li img {
+  cursor: pointer;
+  width: 105px;
+  height: 90px;
+  transition: 1s;
+}
+
+li img:hover {
+  transform: scale(1.5);
+}
+
+.menu a {
+  color: rgb(243, 108, 108);
+  text-decoration: none;
+  margin: 15px;
+  transition: 1s;
+}
+
+.menu a:hover {
+  text-transform: scale(1.5);
+  color: rgb(19, 17, 17);
+}
+
+.menu a.btn button {
+  border-radius: 10mm;
+  background-color: rgb(221, 113, 25);
+  color: white;
+  font-size: 40px;
+  padding: 10px 10px;
+  transition: 0.4s;
+}
+
+.menu a.btn button:hover {
+  transform: scale(1.3);
+}
+
+.conteiner {
+  width: 99%;
+}
+
+.inicio {
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+/**.inicio h1{
+
+    display: flex;
+    justify-content:flex-start;
+}**/
+h1 {
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 30px;
+  font-size: 70px;
+  color: red;
+}
+
+.presentacion {
+  margin: 30px;
+  display: flex;
+  align-content: center;
+}
+
+.presentacion img.img_index {
+  width: 90vh;
+  height: 30%;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  animation-name: aparecer;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0%;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+h2 {
+  font-size: 45px;
+  color: rgb(173, 74, 7);
+}
+
+.presentacion_title {
+  display: flex;
+  text-align: center;
+}
+
+.presentacion_descrip {
+  margin-top: 80px;
+  margin-left: 30px;
+  text-align: justify;
+}
+
+.pie {
+  /**display: flex;**/
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 2opx;
+  margin-bottom: 10px;
+}
+
+.question {
+  position: relative;
+  left: 55%;
+  bottom: 10%;
+  border-radius: 10mm;
+  background-color: rgb(221, 113, 25);
+  color: white;
+  font-size: 25px;
+  padding: 10px 20px;
+  transition: 1s;
+}
+
+button:hover {
+  transform: scale(1.3);
+}
+
+.volver {
+  position: relative;
+  left: 92%;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-style: italic;
+  transition: 0.5s;
+}
+
+.volver:hover {
+  background-color: brown;
+  border-radius: 8mm;
+  color: whitesmoke;
+  /**opacity: 3%;**/
+  transform: scale(1.2);
+}
+
+.icon {
+  margin: 15px;
+  transition: 0.5s;
+}
+
+.icon:hover {
+  transform: rotate(360deg);
+}
+
+.derechos {
+  text-align: center;
+}
+
+.mayed_link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+/**ASIGNATURAS**/
+h3 {
+  font-size: 45px;
+  color: rgb(173, 74, 7);
+}
+
+p {
+  margin: 10px 20px;
+  color: black;
+  font-size: medium;
+  font-style: italic;
+}
+
+.asignaturas {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.asignaturas_mat {
+  padding: 10px 10px;
+  margin: 20px 60px 20px 60px;
+  text-align: center;
+  background: rgb(53, 195, 34);
+  background: linear-gradient(0deg, rgba(53, 195, 34, 0.9948354342) 3%, rgb(253, 187, 45) 100%);
+  transition: 1s;
+}
+
+.asignaturas_mat:hover {
+  transform: scale(1.3);
+}
+
+h4 {
+  color: red;
+  font-size: larger;
+  font-style: italic;
+  background-color: rgb(214, 214, 159);
+}
+
+.asignaturas_mat img.mate {
+  height: 200px;
+  width: 230px;
+}
+
+/**CONTACTO**/
+.content {
+  height: 850px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+h3 {
+  font-size: 45px;
+  color: rgb(173, 74, 7);
+}
+
+h3.title_3 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/**.form{
+
+    width: 800px;
+    height: 250px;
+    font-size: 28px;
+    margin: 60px 160px;
+    color:rgb(238, 86, 15);
+    position:relative;
+    transform: translate(50%);
+
+
+
+}
+
+label{
+    width: 285px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+} **/
+.form_contacto {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.form-control {
+  font-size: 2opx;
+  color: rgb(238, 41, 15);
+  background-color: rgba(255, 127, 80, 0.342);
+  border: rgb(238, 197, 182);
+}
+
+#inputGroupPrepend2 {
+  font-size: 20px;
+  color: rgb(238, 86, 15);
+  background-color: transparent;
+  border: rgb(238, 197, 182);
+}
+
+#validationDefault04 {
+  font-size: 20px;
+  color: rgb(238, 41, 15);
+  background-color: rgba(255, 127, 80, 0.342);
+  border: rgb(238, 197, 182);
+}
+
+.btn_enviar {
+  background-color: rgba(238, 34, 34, 0.5);
+  color: aliceblue;
+  position: relative;
+  border: none;
+  border-radius: 2mm;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 60%;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/**TALLERES**/
+div.taller-img {
+  display: flex;
+}
+
+#fondo {
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 95%;
+  height: 650px;
+  border-radius: 10mm;
+  background-image: url(./fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: ".   texto";
+}
+
+.taller_texto {
+  grid-area: texto;
+  /**padding: 40px;**/
+  border-radius: 10mm;
+  background-color: rgba(231, 231, 122, 0.3);
+  opacity: 60%;
+}
+
+.taller_title {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 24px;
+  background-color: transparent;
+}
+
+.taller_texto p {
+  font-size: 18px;
+  font-style: italic;
+  color: black;
+}
+
+/**TUTORES**/
+.carousel-inner {
+  width: 60%;
+  position: relative;
+  margin-left: 20%;
+  background-color: rgba(242, 242, 245, 0.267);
+  border-radius: 5mm;
+}
+
+div#carouselExampleCaptions {
+  display: flex;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+
+.carousel-indicators {
+  justify-content: center;
+  position: absolute;
+}
+
+.carousel-indicators.active {
+  position: relative;
+  left: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+img.d-block.w-100 {
+  border-radius: 50%;
+}
+
+div.carousel-caption {
+  background-color: rgba(242, 242, 245, 0.267);
+  color: white;
+  border-radius: 10mm;
+  position: relative;
+  right: 0%;
+  left: 15%;
+  margin-top: 20px;
+  width: 70%;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 18px;
+}
+
+button.active {
+  color: black;
+}
+
+.carousel-control-next {
+  position: relative;
+}
+
+/**.card_card{
+
+    width: 50%;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}   
+
+div.card{
+
+
+    width: 330px;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: linear-gradient(60deg, rgba(53,195,34,0.9948354341736695) 3%, rgba(253,187,45,1) 100%);
+    display: inline-block;
+
+
+
+
+}
+
+img.card_prof{
+
+    width: 240PX;
+    height: 200PX;
+    display: inline-block;
+    align-content: center;
+    margin-top: 5px;
+    margin-left: 45px;
+
+
+}
+
+h5.card_name{
+
+    color:rgb(167, 32, 32);
+    font-size: 20px;
+    padding: 40%;
+    display: inline;
+    align-items: center;
+
+}
+p.card_descrip{
+
+    font-size: 18px;
+    font-style: italic;
+    text-align: justify;
+}**/
+/**PLANES**/
+.plan_card {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.plan_cards {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  padding: 10px 10px;
+  background: linear-gradient(15deg, rgba(102, 202, 89, 0.995) 3%, rgb(231, 200, 133) 80%);
+  border-radius: 5mm;
+}
+
+.plan_title {
+  font-size: 30px;
+  background: none;
+  transition: 0, 8ms;
+}
+
+.plan_title:hover {
+  transform: scale(1.4);
+}
+
+.plan_description {
+  font-size: 20px;
+  font-style: italic;
+}
+
+h6 {
+  font-size: larger;
+}
+
+.contacto_plan {
+  background-color: rgba(10, 10, 10, 0.356);
+  height: 50px;
+  width: 110px;
+  border-radius: 3mm;
+}
+
+.select_contacto {
+  color: rgb(247, 240, 240);
+  text-decoration: none;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

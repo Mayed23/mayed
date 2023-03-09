@@ -1,0 +1,66 @@
+.header{
+   
+    width: 100%;
+    
+    
+}
+
+.menu {
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    font-size: 30px;
+    font-style: italic;
+   
+      
+}
+
+li img{
+
+    cursor: pointer;
+    width: 105px;
+    height: 90px;
+    transition: 1s;
+
+}
+
+li img:hover{
+
+    transform: scale(1.5);
+
+
+}
+
+.menu a{
+
+    color: rgb(243, 108, 108);
+    text-decoration: none;
+    margin: 15px;
+    transition: 1s;
+}
+
+.menu a:hover{
+    
+    text-transform: scale(1.5);
+    color:rgb(19, 17, 17);
+    
+}    
+
+
+.menu a.btn button{
+    border-radius: 10mm;
+    background-color: rgb(221, 113, 25);
+    color:white;
+    font-size: 40px;
+    padding: 10px 10px;
+    transition: 0.4s;
+    
+}
+.menu a.btn button:hover{
+
+    transform: scale(1.3);
+}
