@@ -328,7 +328,7 @@ div.taller-img {
   width: 95%;
   height: 650px;
   border-radius: 10mm;
-  background-image: url(./fondo2.jpg);
+  background-image: url(../fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
@@ -520,4 +520,90 @@ h6 {
   color: rgb(247, 240, 240);
   text-decoration: none;
   font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+  }
+  .presentacion {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .volver {
+    left: 50%;
+  }
+  button {
+    left: 10%;
+  }
+  #fondo {
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: ".   texto";
+  }
+  div.taller_img {
+    display: flex;
+  }
+}
+@media screen and (max-width: 847px) {
+  h1 {
+    font-size: 45px;
+  }
+  .menu {
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .presentacion img.img_index {
+    width: -webkit-fill-available;
+  }
+  .icon {
+    transition: 0.1s;
+  }
+  .icon:hover {
+    transform: none;
+    transform: scale(1.2);
+  }
+  .question {
+    font-size: 15px;
+    left: 5px;
+  }
+  .plan_card {
+    display: inline-block;
+  }
+  .plan_cards {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  #fondo {
+    height: 0%;
+  }
+}
+@media screen and (max-width: 690px) {
+  #fondo {
+    display: flex;
+  }
+  .taller_texto {
+    display: block;
+  }
+  .taller_title {
+    font-size: 19px;
+  }
+  .taller_texto p {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 590px) {
+  .corousel-item.active {
+    width: 100vh;
+    display: inline;
+    position: relative;
+  }
+  div#carouselExampleCaptions {
+    margin: 0%;
+  }
 }/*# sourceMappingURL=main.css.map */
