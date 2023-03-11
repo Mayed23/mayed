@@ -5,15 +5,14 @@ h3{
     font-size: 45px;
     color: rgb(173, 74, 7);
 
-}
-p{
-    margin: 10px 20px;
-    color: black;
-    font-size: medium;
-    font-style: italic;
+    p{
+        margin: 10px 20px;
+        color: black;
+        font-size: medium;
+        font-style: italic;
 
+    }
 }
-
 .asignaturas{
 
     margin-top: 30px;
@@ -25,9 +24,6 @@ p{
     justify-content: space-between;
          
 }
-
-
-
 .asignaturas_mat{
 
     padding: 10px 10px;
@@ -39,6 +35,14 @@ p{
        &:hover{
         transform: scale(1.3);
         }
+   
+    img{
+        &.mate{
+            height: 200px;
+            width: 230px;
+
+        }
+    }
     h4{
         color: red;
         font-size: larger;
@@ -46,13 +50,6 @@ p{
         background-color: rgb(214, 214, 159);
         
 
-    }
-    img{
-        &.mate{
-            height: 200px;
-            width: 230px;
-
-        }
     }
 }
 
