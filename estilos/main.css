@@ -303,7 +303,7 @@ div #fondo {
   width: 95%;
   height: 650px;
   border-radius: 10mm;
-  background-image: url(../fondo2.jpggit);
+  background-image: url(./fondo2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
