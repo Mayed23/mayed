@@ -10,62 +10,46 @@
     display: flex ;
     justify-content:space-between;
     gap: 40px;
-    
-    
-}
 
+    .plan_cards{
+        display: inline-block; ;
+        align-items: center;
+        text-align: center;
+        padding: 10px 10px;
+        background: linear-gradient(15deg, rgba(102, 202, 89, 0.995) 3%, rgb(231, 200, 133) 80%);
+        border-radius: 5mm;
+        .plan_title{
+            font-size: 30px;
+            background: none;
+            transition: 0,8ms;
+            &:hover{
+                transform:scale(1.4);
+            }
+        }
+        .plan_description{
 
-.plan_cards{
+        
+            font-size: 20px;
+            font-style: italic;
+            &h6{
+                font-size: larger;
+            }
+        }
+        .contacto_plan{
 
-    
-  
-    display: inline-block; ;
-    align-items: center;
-    text-align: center;
-    padding: 10px 10px;
-    background: linear-gradient(15deg, rgba(102, 202, 89, 0.995) 3%, rgb(231, 200, 133) 80%);
-    border-radius: 5mm;
-  }
+            background-color: rgba(10, 10, 10, 0.356);
+            height: 50px;
+            width: 110px;
+            border-radius: 3mm;
+        }
+        .select_contacto{
 
-
-.plan_title{
-
-    
-    font-size: 30px;
-    background: none;
-    transition: 0,8ms;
-}
-
-.plan_title:hover{
-
-    transform:scale(1.4);
-}
-
-.plan_description{
-
-    
-    font-size: 20px;
-    font-style: italic;
+            color: rgb(247, 240, 240);
+            text-decoration: none;
+            font-size: 20px;
+        }
+    }    
        
 }
+    
 
-h6{
-
-    font-size: larger;
-}
-
-
-    .contacto_plan{
-
-    background-color: rgba(10, 10, 10, 0.356);
-    height: 50px;
-    width: 110px;
-    border-radius: 3mm;
-}
-
-.select_contacto{
-
-    color: rgb(247, 240, 240);
-    text-decoration: none;
-    font-size: 20px;
-}

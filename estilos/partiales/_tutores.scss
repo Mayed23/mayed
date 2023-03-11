@@ -1,8 +1,5 @@
 /**TUTORES**/
 
-
-
-
 .carousel-inner{
 
     width: 60%;
@@ -39,13 +36,17 @@ div#carouselExampleCaptions{
 
 }
 
-img.d-block.w-100{
-    
+img{
+    &.d-block{
 
-    border-radius: 50%;
+       &.w-100{
+            border-radius: 50%;
+       }
+    }
 }
 
-div.carousel-caption{
+div{
+    &.carousel-caption{
 
     background-color: rgba(242, 242, 245, 0.267);    
     color: white;
@@ -55,7 +56,7 @@ div.carousel-caption{
     left: 15%;
     margin-top: 20px;
     width: 70%;
-
+    }
 }   
 
 h5{
