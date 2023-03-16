@@ -51,15 +51,15 @@
             transition: 1s;
 
             &:hover{
-                color:rgb(19, 17, 17);
+                color: $color3;
             }                       
                 
 
             &.btn{
                 button{   
                     border-radius: 10mm;
-                    background-color: rgb(221, 113, 25);
-                    color:white;
+                    background-color: $fondo1;
+                    color: $color1;
                     font-size: 40px;
                     padding: 10px 10px;
                     transition: 0.4s;

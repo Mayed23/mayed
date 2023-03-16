@@ -49,7 +49,7 @@ body {
   transition: 1s;
 }
 .header .menu a:hover {
-  color: rgb(19, 17, 17);
+  color: black;
 }
 .header .menu a.btn button {
   border-radius: 10mm;
@@ -198,29 +198,58 @@ h3 p {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
-.asignaturas_mat {
+.asignaturas .asignaturas_mat {
   padding: 10px 10px;
   margin: 20px 60px 20px 60px;
   text-align: center;
   background: rgb(53, 195, 34);
   background: linear-gradient(0deg, rgba(53, 195, 34, 0.9948354342) 3%, rgb(253, 187, 45) 100%);
-  transition: 1s;
+  animation: swirl-in-fwd 0.6s ease-out both;
 }
-.asignaturas_mat:hover {
-  transform: scale(1.3);
-}
-.asignaturas_mat img.mate {
-  height: 200px;
-  width: 230px;
-}
-.asignaturas_mat h4 {
-  color: red;
+.asignaturas .asignaturas_mat h4 {
+  color: rgb(238, 41, 15);
   font-size: larger;
   font-style: italic;
   background-color: rgb(214, 214, 159);
 }
-
+.asignaturas .asignaturas_mat img.mate {
+  height: 200px;
+  width: 230px;
+}
+.asignaturas .asignaturas_mat:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.asignaturas .asignaturas_mat:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.asignaturas .asignaturas_mat:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.asignaturas .asignaturas_mat:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.asignaturas .asignaturas_mat:nth-child(5) {
+  animation-delay: 1s;
+}
+.asignaturas .asignaturas_mat:nth-child(6) {
+  animation-delay: 1.2s;
+}
+.asignaturas .asignaturas_mat:nth-child(7) {
+  animation-delay: 1.4s;
+}
+.asignaturas .asignaturas_mat:nth-child(8) {
+  animation-delay: 1.6s;
+}
+@keyframes swirl-in-fwd {
+  0% {
+    transform: rotate(-540deg) scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: rotate(0) scale(1);
+    opacity: 1;
+  }
+}
 /**CONTACTO**/
 .content {
   height: 850px;
@@ -254,7 +283,7 @@ h3.title_3 {
 
 #inputGroupPrepend2 {
   font-size: 20px;
-  color: rgb(238, 86, 15);
+  color: rgb(238, 41, 15);
   background-color: transparent;
   border: rgb(238, 197, 182);
 }
@@ -267,15 +296,16 @@ h3.title_3 {
 }
 
 .btn_enviar {
-  background-color: rgba(238, 34, 34, 0.5);
-  color: aliceblue;
+  background-color: rgba(235, 167, 143, 0.342);
+  padding: 10px;
+  color: black;
   position: relative;
   border: none;
-  border-radius: 2mm;
+  border-radius: 3mm;
   margin-top: 5%;
   margin-bottom: 10%;
   margin-left: 60%;
-  font-size: 18px;
+  font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -415,7 +445,7 @@ button.active {
   border-radius: 3mm;
 }
 .plan_card .plan_cards .select_contacto {
-  color: rgb(247, 240, 240);
+  color: white;
   text-decoration: none;
   font-size: 20px;
 }

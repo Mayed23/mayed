@@ -12,8 +12,8 @@
         left: 55%;
         bottom: 10%;
         border-radius: 10mm;
-        background-color: rgb(221, 113, 25);
-        color:white;
+        background-color: $fondo1;
+        color:$color1;
         font-size: 25px;
         padding: 10px 20px;
         transition: 1s;
@@ -35,7 +35,7 @@
         position: relative;
         left: 92%;
         text-decoration: none;
-        color: black;
+        color: $color3;
         font-size: 30px;
         font-style: italic;
         transition: 0.5s;
@@ -66,6 +66,6 @@
     }
     .mayed_link{
         text-decoration: none;
-        color: black;
+        color: $color3;
         font-size: 20px;
     }

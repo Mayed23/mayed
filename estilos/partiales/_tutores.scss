@@ -49,7 +49,7 @@ div{
     &.carousel-caption{
 
     background-color: rgba(242, 242, 245, 0.267);    
-    color: white;
+    color: $color1;
     border-radius: 10mm;
     position: relative;
     right: 0%;
@@ -71,7 +71,7 @@ p{
 
 button.active{
 
-    color: black;
+    color: $color3;
 }
 
 .carousel-control-next{
