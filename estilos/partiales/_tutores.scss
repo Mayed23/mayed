@@ -1,13 +1,15 @@
 /**TUTORES**/
 
-.carousel-inner{
+.textotutores{
 
-    width: 60%;
-    position: relative;
-    margin-left: 20%;
-    background-color: rgba(242, 242, 245, 0.267);
-    border-radius: 5mm;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
+
+
 
 div#carouselExampleCaptions{
 
@@ -18,60 +20,61 @@ div#carouselExampleCaptions{
     margin-right: 20%;
 
 
-}
+    .carousel-indicators{
 
-.carousel-indicators{
 
+        display: flex;
+        justify-content: center;
+        margin-right: 25%;
+        
+        &.active{
+
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+    .carousel-inner{
+
+
+        width: 60%;
+        position: relative;
+        margin-left: 15%;
+        background-color: rgba(242, 242, 245, 0.267);
+        border-radius: 5mm;
+
+        img.d-block.w-100{
     
-    justify-content: center;
-    position: absolute;
-}
 
-.carousel-indicators.active{
-
-    position: relative;
-    left: 0%;
-    display: flex;
-    justify-content: center;
-
-}
-
-img{
-    &.d-block{
-
-       &.w-100{
             border-radius: 50%;
-       }
+        }
+        
+        div.carousel-caption{
+        
+            background-color: rgba(145, 145, 151, 0.267);
+            color: color1;
+            border-radius: 10mm;
+            position: relative;
+            right: 0%;
+            left: 15%;
+            margin-top: 20px;
+            width: 70%;
+
+            h5{
+
+                font-size: 28px;
+            }
+            
+            p{
+            
+                font-size: 18px;
+            }
+        
+        }   
     }
-}
 
-div{
-    &.carousel-caption{
-
-    background-color: rgba(242, 242, 245, 0.267);    
-    color: $color1;
-    border-radius: 10mm;
-    position: relative;
-    right: 0%;
-    left: 15%;
-    margin-top: 20px;
-    width: 70%;
-    }
-}   
-
-h5{
-
-    font-size: 28px;
-}
-
-p{
-
-    font-size: 18px;
-}
-
-button.active{
-
-    color: $color3;
 }
 
 .carousel-control-next{
