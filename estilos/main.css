@@ -43,7 +43,7 @@ body {
   font-style: italic;
 }
 .header .menu a {
-  color: rgb(243, 108, 108);
+  color: rgb(238, 41, 15);
   text-decoration: none;
   margin: 15px;
   transition: 1s;
@@ -216,6 +216,20 @@ h3 p {
   height: 200px;
   width: 230px;
 }
+.asignaturas .asignaturas_mat .selectasignatura {
+  position: absolute;
+  margin-left: -170px;
+  margin-top: 150px;
+  background-color: rgba(192, 189, 9, 0.897);
+  height: 40px;
+  width: 90px;
+  border-radius: 3mm;
+}
+.asignaturas .asignaturas_mat .selectasignatura .select_asignatura {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
 .asignaturas .asignaturas_mat:nth-child(1) {
   animation-delay: 0.2s;
 }
@@ -298,7 +312,7 @@ h3.title_3 {
 .btn_enviar {
   background-color: rgba(235, 167, 143, 0.342);
   padding: 10px;
-  color: black;
+  color: rgb(173, 74, 7);
   position: relative;
   border: none;
   border-radius: 3mm;
@@ -333,6 +347,7 @@ div .taller_texto {
   opacity: 60%;
 }
 div .taller_textop {
+  margin-top: 40 px;
   font-size: 18px;
   font-style: italic;
   color: black;
