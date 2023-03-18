@@ -553,4 +553,16 @@ div#carouselExampleCaptions .carousel-inner div.carousel-caption p {
   div#carouselExampleCaptions {
     margin: 0%;
   }
+  .volver {
+    left: 80%;
+    top: -50px;
+    font-size: 20px;
+  }
+  .icon {
+    width: 45px;
+    height: 45px;
+  }
+  .mayed_link {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=main.css.map */
