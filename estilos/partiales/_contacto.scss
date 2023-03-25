@@ -13,6 +13,7 @@
 h3{  
     font-size: 45px;
     color: $color5;
+    
     &.title_3{
         text-align: center;
         margin-top: 20px;
@@ -35,7 +36,7 @@ h3{
 
     font-size: 2opx;
     color:$color4;
-    background-color: $fondo2;
+    background-color: rgb(182, 146, 146, 0.411);
     border:$border1;
     
 }     
@@ -53,7 +54,7 @@ h3{
 
     font-size: 20px;
     color:$color4;
-    background-color: $fondo2;
+    background-color: rgba(182, 146, 146, 0.411);
     border:$border1;
 
 
@@ -61,7 +62,7 @@ h3{
 
 .btn_enviar{
 
-    background-color: $fondo2;
+    background-color: rgba(182, 146, 146, 0.411);
     padding: 10px;
     color: $color5;
     position: relative;

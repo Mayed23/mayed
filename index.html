@@ -7,6 +7,7 @@
     <meta name="keywords" content="Profesor, nivelació, asesoría, tutores, tutorías, inglés, matemáticas, cursos, talleres, estudios, profesores, recuperación">    
     <meta name="description" content="Aprende, Refuerza Y Complementa tus Conocimiento desde una nueva Experiencia">
     <title>Mayed | Plataforma de Educación Básica y Complementaria...</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/main.css">
     <link rel="shorcut icon" href="./imagen/logo1.png" type="img/x-icon">
 
@@ -15,35 +16,58 @@
 
     <heard class="header">
 
-        <nav>
-            
-            <div class="logo"><a href="./index.html"><img src="./imagen/logo1.png" alt="logo"></a>
+        <nav class="navbar navbar-expand-lg ">
+
+            <div class="container-fluid">
+
+              <a class="navbar-brand" href="./index.html"><img class="logo" src="./imagen/logo1.png" alt="logo"></a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./paginas/asignaturas.html">Asignaturas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/taller.html">Talleres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/tutores.html">Tutores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./paginas/plan.html">Planes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="./paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item"><a href="./paginas/contacto.html" class="btn"> <button>?</button></a></li>
+
+                    </ul>
+                </div>
             </div>
-            
-           <ul class="menu">  
-                <li><a href="./Paginas/asignaturas.html">Asignaturas</a></li>
-                <li><a href="./Paginas/taller.html">Talleres</a></li>
-                <li><a href="./Paginas/tutores.html">Tutores</a></li>
-                <li><a href="./Paginas/plan.html">Planes</a></li>
-                <li><a href="./Paginas/contacto.html">Contacto</a></li>
-                <li><a href="#" class="btn"> <button>?</button></a></li>
-                                 
-             </ul>
+               
         </nav>
 
     </heard>
 
     <main class="conteiner">
         <section class="inicio">
-            <h1>Mayed</h1>
+            
             <div class="presentacion">
                 <img class="img_index"  src="./imagen/new.png" alt="mapa mental proceso de enseñanza">
-                <h2 class="presentacion_title">Objetivos</h2>
-                <p class="presentacion_descrip">Nuestro principal objetivo es entragar la SEMILLA de proactividad y pro movimiento del análisis didacta, unido al pensamiento critico; con el fin de que ésta pueda dar frutos en cada estudiante que la reciba. Entregando a cada uno la independencia y capacidad autónoma de aprendizaje y desarrollo de nuevas ideas, conocimientos, herramientas y nuevas metas a realizar. A través de métodos de aprendizajes completamente producidos en Mayed y que son entregados en cada sesión de tutor a estudiante, involucrando a los padres en este proceso, por ser los pilares fundamentales. Con un contenido integral de acuerdo a la asignatura o campo de los que se imparten y reciben, con un espíritu de interconexion con todos los conocimientos académicos y de la vida; lo que asegura el carácter íntegro de todo contenido aquí entregado, a través de las formas de organización que hemos implementado, adaptadas a la naturaleza de aprendizaje del estudiante y a la inclinación de sus gustos al aprender, respetando sus opiniones y estimulando los otros canales de aprendizajes. Las Evaluaciones son enfocadas en verificar la real destreza y flexibilidad intelectual de cada estudiante; admitiendo en la participación la existencia de respuestas creativas y evitando el armado de mangas o rieles que hagan de limite a la expresión y capacidad del estudiante. Nuestra labor y es el desarrollo de los nuevos adultos buenas dispociciónón al aprendizaje. Haciéndonos responsables y creadores del contexto propio de lo que aquí hacemos y por tanto extendemos la invitación a padres, cuidadores y responsables a ser parte de esta labor.
 
-             <br>
-                
-                  Dirección General de Planificación y Estudio</p>
+                <div class="contenido">
+                    <h2 class="presentacion_title">Objetivos</h2>
+                    <p class="presentacion_descrip">Nuestro principal objetivo es entragar la SEMILLA de proactividad y pro movimiento del análisis didacta, unido al pensamiento critico; con el fin de que ésta pueda dar frutos en cada estudiante que la reciba. Entregando a cada uno la independencia y capacidad autónoma de aprendizaje y desarrollo de nuevas ideas, conocimientos, herramientas y nuevas metas a realizar. A través de métodos de aprendizajes completamente producidos en Mayed y que son entregados en cada sesión de tutor a estudiante, involucrando a los padres en este proceso, por ser los pilares fundamentales. Con un contenido integral de acuerdo a la asignatura o campo de los que se imparten y reciben, con un espíritu de interconexion con todos los conocimientos académicos y de la vida; lo que asegura el carácter íntegro de todo contenido aquí entregado, a través de las formas de organización que hemos implementado, adaptadas a la naturaleza de aprendizaje del estudiante y a la inclinación de sus gustos al aprender, respetando sus opiniones y estimulando los otros canales de aprendizajes. Las Evaluaciones son enfocadas en verificar la real destreza y flexibilidad intelectual de cada estudiante; admitiendo en la participación la existencia de respuestas creativas y evitando el armado de mangas o rieles que hagan de limite a la expresión y capacidad del estudiante. Nuestra labor y es el desarrollo de los nuevos adultos buenas dispociciónón al aprendizaje. Haciéndonos responsables y creadores del contexto propio de lo que aquí hacemos y por tanto extendemos la invitación a padres, cuidadores y responsables a ser parte de esta labor. <br>
+                    <br>
+                        Dirección General de Planificación y Estudio</p>
+                </div>
             </div>
         </section>
 
@@ -51,9 +75,11 @@
 
     <footer class="pie">
 
+        <div class="opcion">
+
             <a href="https://www.latiendadelprofesor.es/8-preguntas-comunes-que-los-padres-hacen-a-los-maestros/" class="btn"><button class="question">Preguntas Frecuentes</button></a>
 
-        <div>
+        
             <a href="index.html" class="volver">Volver</a>
         </div> 
 
@@ -73,7 +99,16 @@
             <a href="#" target="_blank"
             class="mayed_link">&#169 Todos los derechos reservados. Mayed.com </a>
 
+
+
+
+
+
+
+    
+
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
 
 
 

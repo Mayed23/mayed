@@ -8,94 +8,79 @@
 body {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(90deg, rgb(134, 235, 134), rgb(219, 185, 120), rgb(231, 231, 122));
+  background: linear-gradient(90deg, rgba(134, 235, 134, 0.849), rgba(219, 185, 120, 0.849), rgba(231, 231, 122, 0.849));
 }
 
-.header {
-  width: 100vh;
+.header .navbar-brand {
+  margin-left: 15%;
+  margin-top: 10px;
 }
-.header .logo {
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-  margin-left: 30px;
-}
-.header .logo a img {
-  cursor: pointer;
+.header .navbar-brand .logo {
   width: 105px;
   height: 90px;
+  margin-left: 30px;
   transition: 1s;
 }
-.header .logo a img:hover {
-  transform: scale(1.5);
+.header .navbar-brand .logo:hover {
+  transform: scale(1.3);
 }
-.header .menu {
-  width: 50%;
-  margin-left: 20%;
-  padding: 20px;
+.header .nav-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  list-style: none;
+  justify-content: center;
 }
-.header .menu li {
+.header .nav-item .nav-link {
+  color: rgb(238, 41, 15);
   font-size: 30px;
   font-style: italic;
-}
-.header .menu a {
-  color: rgb(238, 41, 15);
   text-decoration: none;
-  margin: 15px;
   transition: 1s;
+  margin-left: 30px;
 }
-.header .menu a:hover {
+.header .nav-item .nav-link:hover {
   color: black;
 }
-.header .menu a.btn button {
+.header .nav-item button {
   border-radius: 10mm;
   background-color: rgb(221, 113, 25);
   color: white;
-  font-size: 40px;
-  padding: 10px 10px;
+  font-size: 30px;
+  padding: 5px 5px;
   transition: 0.4s;
 }
-.header .menu a.btn buttonbtn:hover {
-  transform: scale(1.3);
+.header .nav-item button.btn:hover {
+  transform: scale(1.2);
 }
 
 .conteiner {
-  width: 99%;
+  width: 100%;
+  margin-top: 5%;
 }
 .conteiner .inicio {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-left: 0px;
   margin-bottom: 20px;
   margin-right: 10px;
 }
-.conteiner h1 {
-  font-weight: 500;
-  line-height: 1.2;
-  margin: 30px;
-  font-size: 70px;
-  color: red;
-}
-.conteiner .presentacion {
+.conteiner .inicio .presentacion {
   margin: 30px;
   display: flex;
   align-content: center;
 }
-.conteiner .presentacion h2.presentacion_title {
+.conteiner .inicio .presentacion .contenido {
+  display: block;
+}
+.conteiner .inicio .presentacion .contenido h2.presentacion_title {
   font-size: 45px;
   color: rgb(173, 74, 7);
-  displAy: flex;
   text-align: center;
 }
-.conteiner .presentacion P.presentacion_descrip {
-  margin-top: 80px;
+.conteiner .inicio .presentacion .contenido P.presentacion_descrip {
+  margin-top: 30px;
   margin-left: 30px;
   text-align: justify;
 }
-.conteiner .presentacion img.img_index {
+.conteiner .inicio img.img_index {
   width: 90vh;
   height: 30%;
   display: flex;
@@ -116,62 +101,62 @@ body {
   }
 }
 
-/**.inicio h1{
-
-    display: flex;
-    justify-content:flex-start;
-}**/
 .pie {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 20px;
   margin-right: 2opx;
   margin-bottom: 10px;
 }
-.pie .question {
+.pie .opcion {
+  margin-right: 1opx;
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pie .opcion .question {
   position: relative;
-  left: 55%;
+  margin-top: 10px;
   bottom: 10%;
   border-radius: 10mm;
   background-color: rgb(221, 113, 25);
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   padding: 10px 20px;
   transition: 1s;
 }
-
-button:hover {
+.pie .opcion .question:hover {
   transform: scale(1.3);
 }
-
-.volver {
-  position: relative;
-  left: 92%;
+.pie .opcion .volver {
+  background-color: bisque;
+  border-radius: 8mm;
+  margin-right: 40px;
+  padding: 5px;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
   transition: 0.5s;
+  cursor: pointer;
 }
-.volver:hover {
-  background-color: brown;
+.pie .opcion .volver:hover {
+  background-color: rgb(212, 145, 145);
   border-radius: 8mm;
   color: whitesmoke;
   transform: scale(1.2);
 }
-
-.icon {
+.pie .icon {
   margin: 15px;
   transition: 0.5s;
 }
-.icon:hover {
+.pie .icon:hover {
   transform: rotate(360deg);
 }
-
-.derechos {
+.pie .derechos {
   text-align: center;
 }
-
-.mayed_link {
+.pie .mayed_link {
   text-decoration: none;
   color: black;
   font-size: 20px;
@@ -291,7 +276,7 @@ h3.title_3 {
 .form-control {
   font-size: 2opx;
   color: rgb(238, 41, 15);
-  background-color: rgba(235, 167, 143, 0.342);
+  background-color: rgba(182, 146, 146, 0.411);
   border: rgb(238, 197, 182);
 }
 
@@ -305,12 +290,12 @@ h3.title_3 {
 #validationDefault04 {
   font-size: 20px;
   color: rgb(238, 41, 15);
-  background-color: rgba(235, 167, 143, 0.342);
+  background-color: rgba(182, 146, 146, 0.411);
   border: rgb(238, 197, 182);
 }
 
 .btn_enviar {
-  background-color: rgba(235, 167, 143, 0.342);
+  background-color: rgba(182, 146, 146, 0.411);
   padding: 10px;
   color: rgb(173, 74, 7);
   position: relative;
@@ -462,19 +447,20 @@ div#carouselExampleCaptions .carousel-inner div.carousel-caption p {
   font-size: 20px;
 }
 
-@media screen and (max-width: 1030px) {
-  .header .menu {
-    margin-left: 0%;
+@media screen and (max-width: 1250px) {
+  .header .navbar-brand {
+    margin-left: 1%;
+  }
+  .header .navbar-brand .logo {
+    margin-left: 2px;
   }
   .presentacion {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .volver {
-    left: 50%;
-    font-size: 20px;
-  }
+}
+@media screen and (max-width: 1030px) {
   #fondo {
     margin-right: 20px;
     display: grid;
@@ -486,38 +472,29 @@ div#carouselExampleCaptions .carousel-inner div.carousel-caption p {
   }
 }
 @media screen and (max-width: 799px) {
-  .header {
-    display: inline;
+  #navbarNav.collapse.navbar-collapse .nav-item {
+    display: inline-block;
+    align-items: start;
+    justify-content: flex-start;
   }
-  .header .logo {
-    justify-content: center;
-    margin-left: auto;
-  }
-  .header .menu {
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 10px;
-  }
-  .header .icon {
-    transition: 0.1s;
-  }
-  .header .icon:hover {
-    transform: none;
-    transform: scale(1.2);
-  }
-  .pie .question {
-    left: 0%;
-    font-size: 15px;
-  }
-  .conteiner h1 {
-    font-size: 45px;
+  #navbarNav.collapse.navbar-collapse .nav-item .nav-link {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 2px;
+    font-size: 20px;
   }
   .conteiner .presentacion img.img_index {
     width: -webkit-fill-available;
   }
-  .conteiner .asignaturas {
+  .conteiner h3 {
+    font-size: 35px;
+  }
+  .conteiner .asignaturas, .conteiner .mat {
     margin-left: 0%;
+    margin-right: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .conteiner #fondo {
     height: 0%;
@@ -538,8 +515,9 @@ div#carouselExampleCaptions .carousel-inner div.carousel-caption p {
   }
   .plan_card {
     display: inline-block;
+    justify-content: center;
   }
-  .plan_cards {
+  .plan_card .plan_cards {
     display: inline-block;
     margin-bottom: 15px;
   }
