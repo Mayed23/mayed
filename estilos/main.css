@@ -213,7 +213,7 @@ h3 p {
 .asignaturas .asignaturas_mat .selectasignatura .select_asignatura {
   color: black;
   text-decoration: none;
-  font-size: larger;
+  font-size: medium;
 }
 .asignaturas .asignaturas_mat:nth-child(1) {
   animation-delay: 0.2s;
