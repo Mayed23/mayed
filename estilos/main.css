@@ -356,23 +356,24 @@ div .taller_title {
 
 div#carouselExampleCaptions {
   display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 5%;
   margin-top: 5%;
   margin-left: 25%;
-  margin-right: 20%;
+  margin-right: 25%;
 }
 div#carouselExampleCaptions .carousel-indicators {
   display: flex;
   justify-content: center;
-  margin-right: 25%;
+  align-items: center;
 }
 div#carouselExampleCaptions .carousel-indicators.active {
-  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 div#carouselExampleCaptions .carousel-inner {
-  width: 60%;
   position: relative;
   margin-left: 15%;
   background-color: rgba(242, 242, 245, 0.267);
@@ -514,8 +515,9 @@ div#carouselExampleCaptions .carousel-inner div.carousel-caption p {
     padding: 3px;
   }
   .plan_card {
-    display: inline-block;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .plan_card .plan_cards {
     display: inline-block;
@@ -529,7 +531,8 @@ div#carouselExampleCaptions .carousel-inner div.carousel-caption p {
     position: relative;
   }
   div#carouselExampleCaptions {
-    margin: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
   }
   .volver {
     left: 80%;

@@ -118,8 +118,9 @@
 
     .plan_card{
         
-        display: inline-block;
+        flex-direction: column;
         justify-content: center;
+        align-items: center;
 
         .plan_cards{
 
@@ -144,7 +145,8 @@
 
     div#carouselExampleCaptions{
 
-        margin: 0%;
+        margin-right: 0%;
+        margin-left: 0%;
 
     }
 

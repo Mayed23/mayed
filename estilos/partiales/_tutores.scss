@@ -14,10 +14,12 @@
 div#carouselExampleCaptions{
 
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 5%;
     margin-top: 5%;
     margin-left: 25%;
-    margin-right: 20%;
+    margin-right: 25%;
 
 
     .carousel-indicators{
@@ -25,13 +27,16 @@ div#carouselExampleCaptions{
 
         display: flex;
         justify-content: center;
-        margin-right: 25%;
+        align-items: center;
+       
+       
         
         &.active{
 
-            position: relative;
+           
             display: flex;
             justify-content: center;
+            align-items: center;
 
         }
     }
@@ -39,7 +44,6 @@ div#carouselExampleCaptions{
     .carousel-inner{
 
 
-        width: 60%;
         position: relative;
         margin-left: 15%;
         background-color: rgba(242, 242, 245, 0.267);
