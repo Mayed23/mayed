@@ -1,25 +1,61 @@
-.conteiner{
+.container{
 
     width: 100%;
     margin-top: 5%;
 
-    .inicio{
+    section.inicio{
 
         margin-top: 40px;
         margin-left: 0px;
         margin-bottom: 20px;
         margin-right: 10px;
+        display: flex;
+        
     
 
         .presentacion{
 
-            margin: 30px;
-            display: flex;
-            align-content: center;  
+
+            display: block;
+            
+
+
+            img{
+
+                &.img_index{
+    
+                                  
+                    display: flex;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    animation-name: aparecer;
+                    animation-duration: 2s;
+                    animation-delay: 1s;
+                    animation-fill-mode: forwards;
+                    opacity: 0%;
+                }
+    
+                @keyframes aparecer{
+    
+                    0%{
+                        opacity: 0;
+                    }
+                
+                    100%{
+                        opacity: 1;
+                    }
+                }
+             
+    
+            }
+
+            
+                       
 
             .contenido{
 
                 display: block;
+                justify-content: flex-end;
 
                
 
@@ -47,36 +83,7 @@
         }
 
  
-        img{
-
-            &.img_index{
-                width: 90vh;
-                height: 30%;
-                display: flex;
-                margin-left: 20px;
-                margin-right: 20px;
-                animation-name: aparecer;
-                animation-duration: 2s;
-                animation-delay: 1s;
-                animation-fill-mode: forwards;
-                opacity: 0%;
-            }
-
-            @keyframes aparecer{
-
-                0%{
-                    opacity: 0;
-                }
-            
-                100%{
-                    opacity: 1;
-                }
-            }
-
-
-           
-
-        }
+      
         
         
         

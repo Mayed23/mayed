@@ -52,39 +52,39 @@ body {
   transform: scale(1.2);
 }
 
-.conteiner {
+.container {
   width: 100%;
   margin-top: 5%;
 }
-.conteiner .inicio {
+.container .inicio {
   margin-top: 40px;
   margin-left: 0px;
   margin-bottom: 20px;
   margin-right: 10px;
 }
-.conteiner .inicio .presentacion {
+.container .inicio .presentacion {
   margin: 30px;
   display: flex;
   align-content: center;
 }
-.conteiner .inicio .presentacion .contenido {
+.container .inicio .presentacion .contenido {
   display: block;
 }
-.conteiner .inicio .presentacion .contenido h2.presentacion_title {
+.container .inicio .presentacion .contenido h2.presentacion_title {
   font-size: 45px;
   color: rgb(173, 74, 7);
   text-align: center;
 }
-.conteiner .inicio .presentacion .contenido P.presentacion_descrip {
+.container .inicio .presentacion .contenido P.presentacion_descrip {
   margin-top: 30px;
   margin-left: 30px;
   text-align: justify;
 }
-.conteiner .inicio img.img_index {
-  width: 90vh;
-  height: 30%;
+.container .inicio img.img_index {
+  width: 45%;
+  
   display: flex;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-right: 20px;
   animation-name: aparecer;
   animation-duration: 2s;
@@ -103,12 +103,12 @@ body {
 
 .pie {
   margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 2opx;
+  margin-left: 15%;
+  margin-right: 15%;
   margin-bottom: 10px;
 }
 .pie .opcion {
-  margin-right: 1opx;
+  margin-right: 10px;
   margin-left: 2px;
   display: flex;
   align-items: center;
@@ -184,8 +184,8 @@ h3 p {
   justify-content: space-between;
 }
 .asignaturas .asignaturas_mat {
-  padding: 10px 10px;
-  margin: 20px 60px 20px 60px;
+  padding: 5px 5px;
+  margin: 20px 20px 20px 20px;
   text-align: center;
   background: rgb(53, 195, 34);
   background: linear-gradient(0deg, rgba(53, 195, 34, 0.9948354342) 3%, rgb(253, 187, 45) 100%);
